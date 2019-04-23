@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         //Fragment fragment = MZModeBannerFragment.newInstance();
         Fragment fragment = NormalViewPagerFragment.newInstance();
         getSupportFragmentManager().beginTransaction().add(R.id.home_container,fragment).commit();
